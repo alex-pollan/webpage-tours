@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Premier RO page tour designer</title>
+    <style type="text/css">
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+    -->
+    <script src="js/store.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/extension.js"></script>
+    <script src="js/popover.js"></script>
+  </head>
+
+  <body>
+    <h1>Tour designer</h1>
+    <div id="container">
+      <h2 id="title"></h2>
+      <h3>Steps</h3>
+      <div>
+        <button id="createNewStep">New step</button>
+      </div>
+      <ul id="stepList">
+        <!--new steps go here-->
+      </ul>
+      <div>
+        <button id="save">Save</button>
+      </div>
+    </div>
+  </body>
+</html>

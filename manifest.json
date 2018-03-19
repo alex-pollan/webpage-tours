@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+
+    "name": "Premier RO Tours designer",
+    "description": "This extension allows to create a tour in a Premier RO page with wath's new.",
+    "version": "1.0",
+
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popover.html"
+    },
+    "permissions": [
+      "activeTab",
+      "storage"
+    ]
+  }
